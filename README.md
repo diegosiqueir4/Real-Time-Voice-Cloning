@@ -33,7 +33,11 @@ You will need the following whether you plan to use the toolbox only or to retra
 **Python 3.7**. Python 3.6 might work too, but I wouldn't go lower because I make extensive use of pathlib.
 
 Run `pip install -r requirements.txt` to install the necessary packages. Additionally you will need [PyTorch](https://pytorch.org/get-started/locally/) (>=1.0.1).
-
+  ```
+  pip install https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl
+  pip install torchvision
+  ```
+  
 A GPU is mandatory, but you don't necessarily need a high tier GPU if you only want to use the toolbox.
 
 ### Pretrained models
